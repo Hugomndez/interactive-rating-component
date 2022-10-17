@@ -1,0 +1,1 @@
+export { InteractiveRating } from './InteractiveRating';

@@ -1,3 +1,4 @@
+import { InteractiveRating } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -14,7 +15,10 @@ const Home: NextPage = () => {
           href='/favicon-32x32.png'
         />
       </Head>
-      <h1>Hello world!</h1>
+      <main>
+        <h1>Hello world!</h1>
+        <InteractiveRating />
+      </main>
     </>
   );
 };
