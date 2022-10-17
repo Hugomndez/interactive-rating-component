@@ -31,5 +31,6 @@ html {
 }
 
 body {
+  font-family: var(--Primary-FF);
   font-size: 1.6rem;
 }
