@@ -73,12 +73,12 @@
 .form label:focus,
 .form label:hover {
   color: var(--White);
-  background-color: var(--Medium-Grey);
+  background-color: var(--Orange);
 }
 
 .form label:has(input[type='radio']:checked) {
   color: var(--White);
-  background-color: var(--Orange);
+  background-color: var(--Medium-Grey);
 }
 
 .form input[type='submit'] {

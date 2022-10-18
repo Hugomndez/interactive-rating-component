@@ -52,7 +52,7 @@ Users should be able to:
 ```css
 .form label:has(input[type='radio']:checked) {
   color: var(--White);
-  background-color: var(--Orange);
+  background-color: var(--Medium-Grey);
 }
 ```
 
