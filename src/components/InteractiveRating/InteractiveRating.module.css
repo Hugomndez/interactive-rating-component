@@ -1,6 +1,7 @@
 .card {
   width: 327px;
   height: 360px;
+  margin: 20px;
   padding: 24px;
   border-radius: 15px;
   background: radial-gradient(
@@ -80,10 +81,6 @@
   background-color: var(--Orange);
 }
 
-.required {
-  color: red;
-}
-
 .form input[type='submit'] {
   width: 279px;
   height: 45px;
@@ -114,4 +111,98 @@
 .form input[type='submit']:disabled {
   color: var(--Medium-Grey);
   background-color: var(--Dark-Blue);
+}
+
+.ratingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  width: 168px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  margin-block-start: 24px;
+  margin-block-end: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--Paragraph);
+  color: var(--Orange);
+  border-radius: 22.5px;
+  background-color: var(--Dark-Blue);
+}
+
+.title {
+  margin-block-end: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: var(--White);
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--Paragraph);
+  line-height: 2.2rem;
+  text-align: center;
+  color: var(--Light-Grey);
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    width: 412px;
+    height: 416px;
+    padding: 32px;
+    border-radius: 30px;
+  }
+
+  .formIcon {
+    width: 48px;
+    height: 48px;
+    margin-block-end: 30px;
+  }
+
+  .form h1 {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+
+  .form p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .form fieldset {
+    margin-block-end: 32px;
+    gap: 23px;
+  }
+
+  .form label {
+    width: 51px;
+    height: 51px;
+  }
+
+  .form input[type='submit'] {
+    width: 347px;
+    line-height: 1.9rem;
+    letter-spacing: 2px;
+  }
+
+  .rating {
+    width: 193px;
+    margin-block: 32px;
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+
+  .paragraph {
+    line-height: 2.4rem;
+  }
 }
