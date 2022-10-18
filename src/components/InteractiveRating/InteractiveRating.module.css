@@ -1,0 +1,117 @@
+.card {
+  width: 327px;
+  height: 360px;
+  padding: 24px;
+  border-radius: 15px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formIcon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  margin-block-end: 16px;
+  border-radius: 50%;
+  background-color: var(--Dark-Blue);
+}
+
+.form h1 {
+  margin-block-end: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: var(--White);
+}
+
+.form p {
+  margin-block-end: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--Paragraph);
+  line-height: 2.2rem;
+  color: var(--Light-Grey);
+}
+
+.form fieldset {
+  margin-block-end: 24px;
+  display: flex;
+  gap: 18px;
+  border: none;
+}
+
+.form input[type='radio'] {
+  display: none;
+}
+
+.form label {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--Paragraph);
+  color: var(--Medium-Grey);
+  background-color: var(--Dark-Blue);
+  cursor: pointer;
+}
+
+.form label:focus,
+.form label:hover {
+  color: var(--White);
+  background-color: var(--Medium-Grey);
+}
+
+.form label:has(input[type='radio']:checked) {
+  color: var(--White);
+  background-color: var(--Orange);
+}
+
+.required {
+  color: red;
+}
+
+.form input[type='submit'] {
+  width: 279px;
+  height: 45px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--Paragraph);
+  line-height: 1.8rem;
+  letter-spacing: 1.86667px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 22.5px;
+  color: var(--White);
+  background-color: var(--Orange);
+  cursor: pointer;
+}
+
+.form input[type='submit']:focus,
+.form input[type='submit']:hover {
+  background-color: hsl(25, 97%, 53%, 0.9);
+}
+
+.form input[type='submit']:active {
+  color: var(--Orange);
+  background-color: var(--White);
+}
+
+.form input[type='submit']:disabled {
+  color: var(--Medium-Grey);
+  background-color: var(--Dark-Blue);
+}

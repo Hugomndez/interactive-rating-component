@@ -16,7 +16,6 @@ const Home: NextPage = () => {
         />
       </Head>
       <main>
-        <h1>Hello world!</h1>
         <InteractiveRating />
       </main>
     </>
