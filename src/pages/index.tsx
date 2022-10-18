@@ -1,4 +1,4 @@
-import { InteractiveRating } from 'components';
+import { InteractiveRating, Attribution } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -17,6 +17,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <InteractiveRating />
+        <Attribution />
       </main>
     </>
   );
