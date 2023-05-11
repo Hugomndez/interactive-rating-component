@@ -5,12 +5,7 @@ export default function Document() {
     <Html
       lang='en'
       dir='ltr'>
-      <Head>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap'
-          rel='stylesheet'
-        />
-      </Head>
+      <Head />
       <body>
         <Main />
         <NextScript />
