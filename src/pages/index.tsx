@@ -7,7 +7,10 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Frontend Mentor | Interactive rating component</title>
-        <meta name='description' content='Interactive rating component' />
+        <meta
+          name='description'
+          content='Interactive rating component'
+        />
         <link
           rel='icon'
           type='image/png'

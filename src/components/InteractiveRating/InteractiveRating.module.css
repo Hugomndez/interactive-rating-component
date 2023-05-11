@@ -4,11 +4,7 @@
   margin: 20px;
   padding: 24px;
   border-radius: 15px;
-  background: radial-gradient(
-    98.96% 98.96% at 50% 0%,
-    #232a34 0%,
-    #181e27 100%
-  );
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
 }
 
 .form {
